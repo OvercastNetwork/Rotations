@@ -31,7 +31,6 @@ task :verify do
     response = http.request(request)
 
     unless response.code.to_i == 200
-        puts "Possible bad maps:\n\n" + JSON.pretty_generate(JSON.parse(response.body)) + "\n\n"
-        fail
+        fail "Bad maps:\n\n" + JSON.pretty_generate(JSON.parse(response.body)) + "\n\n"
     end
 end
