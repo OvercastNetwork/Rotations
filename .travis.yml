@@ -1,1 +1,3 @@
 language: ruby
+notifications:
+  email: false
