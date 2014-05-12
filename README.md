@@ -8,7 +8,13 @@ Changes to these files *will* affect the rotations on production servers after a
 
 ### Contributing
 
-Since this is a public repository, you are free to suggest changes to current rotations.  All that is needed is a pull-request.  The process for creating a pull-request is detailed as follows:
+Since this is a public repository, you are free to suggest changes to current rotations. All that is needed is a pull-request. Before opening a pull request, please check the following
+
+1. Search the issues to see if your idea has already been proposed.
+2. If it has, stop and comment on that issue instead.
+3. If your idea or a similar one has been suggested in the past and was rejected, it's likely to be rejected again. If your pull-request doesn't address the concerns raised in the issue, please don't submit it.
+
+The process for creating a pull-request is detailed as follows:
 
 1. Fork the repo
 2. Clone down the repo with `git clone https://github.com/<your-name>/Rotations.git`
