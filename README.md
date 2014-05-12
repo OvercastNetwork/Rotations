@@ -21,3 +21,5 @@ Since this is a public repository, you are free to suggest changes to current ro
 During the review process, all that is needed for a deployment onto production servers is the consensus of the community, along with two map developers.  Once approved, your branch will be merged into master, and your changes will be reflected on restart.
 
 Of note: during the build process for pull-requests, Travis-CI will validate all map names given in files.  If all maps are present, a :white_check_mark: will be displayed next to your branch. If not, a :x: will be displayed, and you will be responsible for fixing all invalid map names.
+
+NOTE: Before creating a pull-request make sure that the pull-request has not been created before by another person. We don't need multiple pull-requests for the same update.
