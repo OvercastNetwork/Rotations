@@ -31,6 +31,13 @@ task :verify do
     response = http.request(request)
 
     unless response.code.to_i == 200
-        fail "Bad maps:\n\n" + JSON.pretty_generate(JSON.parse(response.body)) + "\n\n"
+      bad_maps = Hash.new
+
+      JSON.parse(response.body).each do |bad_map|
+        locations = `grep -r '#{bad_map}' .`.split "\n"
+        bad_maps[bad_map] = locations
+      end
+
+      fail JSON.pretty_generate(bad_maps)
     end
 end
