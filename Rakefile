@@ -39,5 +39,7 @@ task :verify do
         end
 
         fail JSON.pretty_generate(bad_maps)
+    else
+        puts 'All maps are valid!'
     end
 end
