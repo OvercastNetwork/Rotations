@@ -1,4 +1,5 @@
 ## Overcast Network Rotations
+[![Build Status](https://travis-ci.org/OvercastNetwork/Rotations.svg?branch=master)](https://travis-ci.org/OvercastNetwork/Rotations)
 
 This repository contains a listing of files which correspond to all public [Overcast Network](https://oc.tc) rotations.
 
