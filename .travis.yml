@@ -1,3 +1,5 @@
 language: ruby
 notifications:
   email: false
+  slack:
+    secure: EQvD7PCmVeOngYDaTqwcnDwL4eWc8cV3RoefsTnfnpeRtSqHOvNLgGA+1xKPJsVkDRshlGLwPBJH/tLUQfsUNCo6OuJ71qwvDIaepDtckWeLl7/8mx22wkliqOgcUP+FS3CbmsytBhY3Y/izomVjitoquW/2qOiqu2SKs4IO2L4=
